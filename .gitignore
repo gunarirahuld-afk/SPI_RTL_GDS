@@ -1,0 +1,7 @@
+# Simulator / tool outputs
+*.vvp
+*_sim
+*_compile
+*_check
+*.vcd
+!docs/*.vcd

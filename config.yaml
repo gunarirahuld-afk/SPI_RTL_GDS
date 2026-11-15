@@ -1,7 +1,9 @@
 DESIGN_NAME: spi_master_slave_top
 
 VERILOG_FILES:
-  - dir::rtl/*.sv
+  - dir::spi_master.sv
+  - dir::spi_slave.sv
+  - dir::spi_master_slave_top.sv
 
 CLOCK_PORT: clk
 CLOCK_PERIOD: 10
